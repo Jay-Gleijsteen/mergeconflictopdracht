@@ -14,9 +14,15 @@ function basicHaikustudent1()
     return ["My life, - How much more of it remains? The night is brief."]
 }
 
+function basicHaikustudent2()
+{
+    return ["Over the wintry forest, winds howl in rage with no leaves to blow."]
+}    
 haikus = [
     basicHaiku()
     ,basicHaikustudent1()
+
+    ,basicHaikustudent2()
 ]
 
 function randomHaiku()
